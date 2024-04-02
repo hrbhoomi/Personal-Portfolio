@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" contents="width=device-width, initial-scale=1.0">
+        <title>Personal Portfoli0 Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/f2102ec93f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.jpg" class="logo">
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p>Web Designer</p>
+                    <h1>Hi, I'm<br> <span>Bhoomika</span><br>From Bengaluru</h1>
+                </div>
+            </div>
+        </div>
+        <!--   ------------about-------    --> 
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/row.jpeg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title" style="margin-bottom: 3%;">About Me</h1>
+                        <p>I am a UI/UX & Frontend enthusiast who is looking for opportunities to apply 
+                            my skills and to learn and gain experience.I am skilled in writing and 
+                            testing code in javascript.I am persuing my Bachelor's Degree in Computer 
+                            Science Engineering specialized in Artificial Intelligence abd Machine Learning at Alliance University.I would love to collaborate with 
+                            teams and create stunning UI and UX.Looking forward to working with you!</p>
+
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('Behavioral Competencies')">Behavioral Competencies</p>
+                                <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('voluntary association')">Voluntary Association</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="Behavioral Competencies">
+                                <ul>
+                                    <li>Quick grasping ability</li>
+                                    <li>Socially adjustable</li>
+                                    <li>Team player</li>
+                                    <li>Well organized</li>
+                                    <li>Leadership</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="skills">
+                                <ul>
+                                    <li><p style="color:red;">Programming Language</p></li>
+                                    <li>C,C++,Core Python,Core java</li>
+                                    <li><p style="color:red;">Web Development</p></li>
+                                    <li>HTML5,CSS3,Javascript,JDBC(crud operation)</li>
+                                    <li><p style="color:red;">Operating System</p></li>
+                                    <li>Windows 10/7,Ubuntu,My SQL,Visual Studio,Eclipse,git and gitHub</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="voluntary association">
+                                <ul>
+                                    <li>Have completed online self learning courses in IBM Enterprise and collected Badge.</li>
+                                    <li>Actively participated in events like fresher’s party in college , and have been a coordinator for social events.</li>
+                                    <li>Managed and led the class to government schools and did a volunteer in NSS as a social responsibility</li>
+                                    <li>Received certificate of participation in IEEE workshop at Alliance Univercity.</li>
+                                    <li>Representing Karnataka and Secured Overall championship in ALLIANCE ONE,intra-university carnival of Alliance University. </li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><p style="color:red;">2021-2025</p></li>
+                                    <li><span>Alliance College Of Engineering and Design</li>
+                                    <li><p style="color:red;">2020-2021</p></li>
+                                    <li>Swamy Vivekananda PU College</li>
+                                    <li><p style="color:red;">2018-2019</p></li>
+                                    <li>Vinayaka Public School</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- -----------------services----------------- -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Our custom website designs are meticulously crafted to capture the essence of your
+                             brand identity while resonating with your target audience. Whether accessed on 
+                             desktops, smartphones, or tablets, our responsive designs ensure seamless 
+                             functionality and a consistent user experience across all devices.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-python"></i>
+                        <h2>Problem Solving</h2>
+                        <p>Whether you're looking to improve predictive analytics, automate processes, or enhance
+                             decision-making, we offer tailored machine learning solutions to meet your needs.
+                              From data preprocessing and feature engineering to model selection and deployment, 
+                            through every step of the machine learning pipeline.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>App Design</h2>
+                        <p>Our focus on user experience ensures that our app not only looks great but
+                           also delivers seamless navigation and effortless interactions. With a
+                           commitment to innovation and attention to detail, we transform your app
+                           ideas into reality and help you stand out in the competitive app market.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -------------------------portfolio------------------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h2 class="sub-title">My projects</h2>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.jpeg">
+                        <div class="layer">
+                            <h3>Portfolio Website</h3>
+                            <p>This portfolio highlights my expertise in HTML, CSS, and JavaScript through recent projects, 
+                                while personal details accentuate my unique strengths.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.jpg">
+                        <div class="layer">
+                            <h3>Face recognition using PCA and SVM</h3>
+                            <p>In this project, I've utilized PCA for face recognition, extracting key features.
+                               PCA reduces high-dimensional data, making it ideal for facial recognition tasks.</p>
+                               <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-4.jpg">
+                        <div class="layer">
+                            <h3>Restaurant Menu</h3>
+                            <p>The Restaurant Menu project is a dynamic web app categorizing items into Breakfast, Lunch,
+                                 Shakes, and Dinner. It employs HTML, CSS, JavaScript, and React.js for seamless user 
+                                 experience and responsive design</p>
+                                 <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!-- --------------------contact--------------------------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>hrbhoomi2003@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>7204078963</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                            <a href="https://www.instagram.com/bhoomi____hr?igsh=ZnNuNTFpMHR5Znlv"><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/Bhoomika H R (RESUME).pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Bhoomi made with<i class="fa-solid fa-heart"></i> by besant technology</p>
+            </div>
+        </div>
+        <script>
+           var tablinks = document.getElementsByClassName("tab-links");
+           var tabcontents = document.getElementsByClassName("tab-contents");
+           function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+           }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzyJQzUhsKf9XEaBJXIVvJCBN50quIwBNq2O9lxS8ezNTt1vG7uDA1wvZn7ypC2tDBN-g/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
